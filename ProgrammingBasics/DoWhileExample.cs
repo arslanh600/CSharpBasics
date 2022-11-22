@@ -46,8 +46,10 @@ namespace ProgrammingBasics
 
                 }catch (Exception ex)
                 {
+                    Console.WriteLine('C');
                     Console.WriteLine("Please Enter a valid number");
                 }
+
 
 
                 if (choice == 1)
