@@ -78,6 +78,11 @@ namespace ProgrammingBasics
         {
 
         }
+        public static void ForLoopDemo()
+        {
+
+            Console.WriteLine("This is For Loop Demo");
+        }
 
         #endregion
     }
