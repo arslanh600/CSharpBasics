@@ -173,5 +173,5 @@ using ProgrammingBasics;
 
 DoWhileExample.DoWhileMenuExample();
 
-
+ForLoopDemo.SimpleLoopDemo();
 
