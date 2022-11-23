@@ -171,7 +171,9 @@ using ProgrammingBasics;
 //DoWhileExample.simpleDoWhileExample();
 
 
-DoWhileExample.DoWhileMenuExample();
+//DoWhileExample.DoWhileMenuExample();
 
-ForLoopDemo.SimpleLoopDemo();
+//ForLoopDemo.ForeachNameListDemo();
 
+Person person = new Person();
+Console.WriteLine(person.GetName());
