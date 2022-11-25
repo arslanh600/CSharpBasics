@@ -166,8 +166,6 @@ using ProgrammingBasics;
 ///*
 ///functionss
 //MyFunctions.WhileLoopTableDemo();
-
-
 //DoWhileExample.simpleDoWhileExample();
 
 
@@ -175,5 +173,25 @@ using ProgrammingBasics;
 
 //ForLoopDemo.ForeachNameListDemo();
 
-Person person = new Person();
-Console.WriteLine(person.GetName());
+//Person person = new Person();
+//Console.WriteLine(person.GetName());
+
+ProductsData.producst.Add("Product 1");
+ProductsData.producst.Add("Product 2");
+ProductsData.producst.Add("Product 3");
+ProductsData.producst.Add("Product 4");
+ProductsData.producst.Add("Product 5");
+ProductsData.producst.Add("Product 6");
+
+
+
+MyFunctionExample myclSSoBJE3CT =  new MyFunctionExample();
+//myclSSoBJE3CT.MyMainFunction();
+
+myclSSoBJE3CT.showProducts();
+
+Console.Write("Enter Product Name: ");
+string newProduct =  Console.ReadLine();
+ProductsData.producst.Add(newProduct);
+
+myclSSoBJE3CT.showProducts();
